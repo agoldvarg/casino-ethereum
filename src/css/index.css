@@ -1,0 +1,41 @@
+.app {
+  font-family: 'open sans';
+}
+
+.meta {
+  display: block;
+  border-bottom: 2px solid;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.attribute {
+  display: block;
+}
+
+.attribute__label {
+  display: inline-block;
+}
+
+.attribute__value {
+  display: inline-block;
+}
+
+.bets {
+  display: flex;
+}
+
+.option {
+  border-radius: 4px;
+  border: 4px solid blue;
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 5px;
+  padding: 40px;
+}
+
+.option:hover {
+  background: blue;
+  color: white;
+}
